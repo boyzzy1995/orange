@@ -1,0 +1,85 @@
+li{
+	list-style: none;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+	margin-top: 10px;
+	margin-bottom: 100px;
+}
+.container .header{
+	margin:15px;
+	padding:0;
+}
+.container .header .ppcp{
+	font-family: PingFangSC-Medium;
+	font-size: 18px;
+	color: #333333;
+	font-weight: bold;
+}
+.container .second{
+	margin:15px;
+	padding:0;
+	height:40px;
+}
+.container .second .gysdiv{
+	margin:10px;
+	width: 50px;
+	height: 20px;
+	float: left;
+}
+.container .second .gysdiv .gys{
+	font-family: PingFangSC-Medium;
+	font-size: 14px;
+	color: #333333;
+	font-weight: bold;
+}
+.container .second .gysxldiv{
+	width: 140px;
+	height: 36px;
+	line-height:36px;
+	float: left;
+}
+.container .second .gysxldiv .gysxlbtn{
+	width: 140px;
+	height: 36px;
+	line-height:36px;
+}
+.container .second .gysxldiv span{
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #333333;
+	letter-spacing: 0;
+}
+.container .second .addprodiv{
+	width: 100px;
+	height: 40px;
+	float:right;
+}
+.container .tbody{
+	margin:15px;
+	padding:0;
+	height:auto;
+}
+.container .tbody ul{
+	margin: 10px;
+	padding:0;
+	height:auto;
+}
+.container .tbody li{
+	width: 176px;
+	height:180px;
+	border:1px solid #F5F5F5;
+	margin:1%;
+	float: left;
+}
+.container .tbody table{
+	height:100%;
+	width: 100%;
+	text-align: center;
+}
+.tbody img{
+	width: 78px;
+	height: 78px;
+}

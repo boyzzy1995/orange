@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>首页</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<meta content="" name="description" />
+	<meta content="" name="author" />
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
+	<link href="../css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="../css/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+	<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="../css/bootstrap-select.min.css" rel="stylesheet"/>
+	<link href="../css/components.css" rel="stylesheet" id="style_components" type="text/css" />
+	<link href="../css/layout.css" rel="stylesheet" type="text/css" />
+	<link href="../css/darkblue.css" rel="stylesheet" type="text/css" id="style_color" />
+	<link href="../css/datacenter/main.css" rel="stylesheet"/>
+	<link href="../css/build.css" rel="stylesheet" type="text/css" id="style_color_build" />
+	<link href="../css/custom.min.css" rel="stylesheet" type="text/css" id="style_color_custom" />
+	<!--<script src="../js/jquery.min.js" type="text/javascript"></script>-->
+	<script src="../js/jquery1_11.js" type="text/javascript"></script>
+	<script src="../js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="../js/bootstrap-select.min.js"></script>
+	<script src="../js/datacenter/main.js"></script>
+	<script type="text/javascript" src="../js/custom.min.js"></script>
+
+
+	<body class="page-header-fixed page-sidebar-closed-hide-logo page-content-white">
+		<div class="page-container" style="background-color: #414a6b;">
+			<div class="page-sidebar-wrapper">
+				<div class="page-sidebar navbar-collapse collapse" style="background-color: #414a6b;">
+					<ul class="page-sidebar-menu  page-header-fixed " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+						<div class="im-profile-userpic">
+							<a href="#">
+								<img src="../img/photo.png" class="im-img-responsive" style="margin-left: 21%;" />
+							</a>
+
+						</div>
+						<li class="nav-item ">
+							<a href="index.html" class="nav-link nav-toggle"> <img src="../img/sy.png" class="im-imgicon" /> <span class="title">首页</span> </a>
+						</li>
+						<li class="nav-item  ">
+							<a href="javascript:;" class="nav-link nav-toggle"> <img src="../img/jlhd.png" class="im-imgicon" /> <span class="title">激励活动</span> </a>
+						</li>
+						<li class="nav-item  ">
+							<a href="品牌产品.html" class="nav-link nav-toggle"> <img src="../img/ppcp.png" class="im-imgicon" /> <span class="title">品牌产品</span> </a>
+						</li>
+						<li class="nav-item  ">
+							<a href="javascript:;" class="nav-link nav-toggle"> <img src="../img/wdkh.png" class="im-imgicon" /> <span class="title">我的客户</span> </a>
+						</li>
+						<li class="nav-item  ">
+							<a href="lczxList.html" class="nav-link nav-toggle"> <img src="../img/lczx.png" class="im-imgicon" /> <span class="title">流程中心</span> </a>
+						</li>
+						<li class="nav-item  ">
+							<a href="消息信箱.html" class="nav-link nav-toggle"> <img src="../img/xxxx.png" class="im-imgicon" /> <span class="title">消息信箱</span> </a>
+						</li>
+						<li class="nav-item active">
+							<a href="数据中心.html" class="nav-link nav-toggle"> <img src="../img/sjzx.png" class="im-imgicon" /> <span class="title">数据中心</span> </a>
+						</li>
+						<li class="nav-item  ">
+							<a href="javascript:;" class="nav-link nav-toggle"> <img src="../img/qdhl.png" class="im-imgicon" /> <span class="title">渠道红利</span> </a>
+						</li>
+						<li class="nav-item  ">
+							<a href="我的账户-个人信息.html" class="nav-link nav-toggle"> <img src="../img/nrwh.png" class="im-imgicon" /> <span class="title">我的账户</span> </a>
+						</li>
+						<li class="nav-item" style="margin-top: 10%;">
+							<a href="javascript:;" class="nav-link nav-toggle"> <span class="title im-imgicon">关于橙子维管</span> </a>
+						</li>
+						<li class="nav-item  ">
+							<a href="javascript:;" class="nav-link nav-toggle"> <span class="im-imgicon"> <i class="fa fa-power-off"></i> <span class="title">退出</span> </span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="page-content-wrapper">
+				<div class="page-content im-backcolor">
+					<div class="page-bar">
+						<ul class="page-breadcrumb">
+							<li> <img src="../img/pc_logo.png" /> </li>
+							<li> <span class="im-toptitle">橙子维管 线下母婴渠道·信息管理平台</span> </li>
+						</ul>
+						<div class="page-toolbar"> <span class="im-toptitleright">深圳腾讯供应有限公司</span> </div>
+					</div>
+					
+					<div class="container" id="mycontainer">
+						<div class="row header">
+							<span class="ppcp">请选择需要导出的报表，输入筛选条件</span>
+						</div>
+						<div class="row body">
+							<div class="col-md-5 panel panel-default col-md-offset-1" style="text-align: center;height: 300px;margin-right: 10px">
+								<div class="radio">
+									<label>
+										<input type="radio" id="optionsRadios2" value="option2"/>销量申报报表
+									</label>
+								</div>
+								<form class="form-horizontal" role="form">
+									<div class="form-group">
+										<label for="lastname" class="col-sm-3 control-label">销量申报时间</label>
+										<div class="col-sm-9">
+											<select class="selectpicker form-control " id="xlproduct">
+												<option value="0">2017-01-02——2017-09-02</option>
+											</select>
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="lastname" class="col-sm-3 control-label">品牌产品</label>
+										<div class="col-sm-1">
+											<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal1">点此选择</button>
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="lastname" class="col-sm-3 control-label">导购员</label>
+										<div class="col-sm-1">
+											<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">点此选择</button>
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="lastname" class="col-sm-3 control-label">流程状态</label>
+										<div class="col-sm-1">
+											<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal3">点此选择</button>
+										</div>
+									</div>
+								</form>
+							</div>																													<div class="col-md-5 panel panel-default" style="text-align: center;height: 300px;margin-left: 10px">
+							<div class="radio">
+								<label>
+									<input type="radio"  id="optionsRadios2" value="option2"/>渠道红利发放报表
+								</label>
+							</div>
+							<form class="form-horizontal" role="form">
+								<div class="form-group">
+									<label for="lastname" class="col-sm-3 control-label">通过审批时间</label>
+									<div class="col-sm-9">
+										<select class="selectpicker form-control " id="xlproduct">
+											<option value="0">2017-01-02——2017-09-02</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="lastname" class="col-sm-3 control-label">红利结算时间</label>
+									<div class="col-sm-9">
+										<select class="selectpicker form-control " id="xlproduct">
+											<option value="0">2017-01-02——2017-09-02</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="lastname" class="col-sm-3 control-label" >激励活动</label>
+									<div class="col-sm-1">
+										<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal2">点此选择</button>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="lastname" class="col-sm-3 control-label">发放对象</label>
+									<div class="col-sm-1">
+										<button type="button" class="btn btn-default">点此选择</button>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="col-md-5 panel panel-default col-md-offset-1" style="text-align: center;height: 300px;margin-right: 10px">
+							<div class="radio">
+								<label>
+									<input type="radio" id="optionsRadios2" value="option2"/>劳务费用月度发放清单
+								</label>
+							</div>
+							<form class="form-horizontal" role="form">
+								<div class="form-group">
+									<label for="lastname" class="col-sm-3 control-label">清单月份</label>
+									<div class="col-sm-9">
+										<select class="selectpicker form-control " id="xlproduct">
+											<option value="0">2017-01-02——2017-09-02</option>
+										</select>
+									</div>
+								</div>
+				
+							</form>
+						</div>																	
+					</div>
+					<div class="row bottom">
+						<button type="button" class="btn btn-success btn-lg" style="width: 200px" onclick="showmessage()">生成报表</button>
+					</div>
+					<div class="row bottom-word">
+						<p>报表已经生成，点此<a>下载</a></p>
+					</div>
+				</div>
+
+				<!--模态框-->
+				<div id="myModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+					<div class="modal-dialog modal-lg " role="document">
+						<div class="modal-content clearfix">
+
+							<div class="col-md-6 col-sm-6" style="border-right: 0.5px solid #9E9E9E;">
+								<div class="modal-header">
+									<div class="col-md-12">
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="请输入购员名字／手机号／母婴品牌名">
+											<span class="input-group-btn">
+												<button class="btn btn-default _red" type="button">搜索</button>
+											</span>
+										</div><!-- /input-group -->
+									</div><!-- /.col-md-12 -->
+									<div class="col-md-12">
+										<div  class="pull-left">
+											<div class="checkbox">
+												<input id="checkbox1" class="styled" type="checkbox">
+												<label for="checkbox1">
+													所有导购员
+												</label>
+											</div>
+										</div>
+										<div class="pull-right _empty" >
+											<i class="iconfont icon-icon--"></i>
+											<span>清空所有选择</span>
+										</div>
+									</div><!-- /.col-md-12 -->
+									<div class="inline-block margin-top-10">
+										<div class="form-group clearfix">
+											<div class="col-md-3 col-sm-3 portlet-title tabbable-line">
+												<label class="_red _label">省份</label>
+											</div>
+											<div class="col-md-9 col-sm-9 portlet-title tabbable-line margin-top-10 ">
+												<div class="btn-group _checkbox_div _scroll_y" role="group" aria-label="Large button group">
+													<div class="col-md-4 col-sm-4">
+														<div class="checkbox">
+															<input id="checkbox1" class="styled" type="checkbox">
+															<label for="checkbox1">
+																陕西
+															</label>
+														</div>
+													</div>
+													<div class="col-md-4 col-sm-4">
+														<div class="checkbox pull-left">
+															<input id="checkbox2" class="styled" type="checkbox">
+															<label for="checkbox2">
+																浙江
+															</label>
+														</div>
+													</div>
+													<div class="col-md-4 col-sm-4">
+														<div class="checkbox pull-left">
+															<input id="checkbox3" class="styled" type="checkbox">
+															<label for="checkbox3">
+																浙江
+															</label>
+														</div>
+													</div>
+													<div class="col-md-4 col-sm-4">
+														<div class="checkbox pull-left">
+															<input id="checkbox4" class="styled" type="checkbox">
+															<label for="checkbox4">
+																浙江
+															</label>
+														</div>
+													</div>
+													<div class="col-md-4 col-sm-4">
+														<div class="checkbox pull-left">
+															<input id="checkbox5" class="styled" type="checkbox">
+															<label for="checkbox5">
+																浙江
+															</label>
+														</div>
+													</div>
+													<div class="col-md-4 col-sm-4">
+														<div class="checkbox pull-left">
+															<input id="checkbox6" class="styled" type="checkbox">
+															<label for="checkbox6">
+																浙江
+															</label>
+														</div>
+													</div>
+													<div class="col-md-4 col-sm-4">
+														<div class="checkbox pull-left">
+															<input id="checkbox7" class="styled" type="checkbox">
+															<label for="checkbox7">
+																浙江
+															</label>
+														</div>
+													</div>
+													<div class="col-md-4 col-sm-4">
+														<div class="checkbox pull-left">
+															<input id="checkbox8" class="styled" type="checkbox">
+															<label for="checkbox8">
+																浙江
+															</label>
+														</div>
+													</div>
+													<div class="col-md-4 col-sm-4">
+														<div class="checkbox pull-left">
+															<input id="checkbox8" class="styled" type="checkbox">
+															<label for="checkbox8">
+																浙江
+															</label>
+														</div>
+													</div>
+													<div class="col-md-4 col-sm-4">
+														<div class="checkbox pull-left">
+															<input id="checkbox8" class="styled" type="checkbox">
+															<label for="checkbox8">
+																浙江
+															</label>
+														</div>
+													</div>
+													<div class="col-md-4 col-sm-4">
+														<div class="checkbox pull-left">
+															<input id="checkbox8" class="styled" type="checkbox">
+															<label for="checkbox8">
+																浙江
+															</label>
+														</div>
+													</div>
+													<div class="col-md-4 col-sm-4">
+														<div class="checkbox pull-left">
+															<input id="checkbox8" class="styled" type="checkbox">
+															<label for="checkbox8">
+																浙江
+															</label>
+														</div>
+													</div>
+													<div class="col-md-4 col-sm-4">
+														<div class="checkbox pull-left">
+															<input id="checkbox8" class="styled" type="checkbox">
+															<label for="checkbox8">
+																浙江
+															</label>
+														</div>
+													</div>
+													<div class="col-md-4 col-sm-4">
+														<div class="checkbox pull-left">
+															<input id="checkbox8" class="styled" type="checkbox">
+															<label for="checkbox8">
+																浙江
+															</label>
+														</div>
+													</div>
+													<div class="col-md-4 col-sm-4">
+														<div class="checkbox pull-left">
+															<input id="checkbox8" class="styled" type="checkbox">
+															<label for="checkbox8">
+																浙江
+															</label>
+														</div>
+													</div>
+													<div class="col-md-4 col-sm-4">
+														<div class="checkbox pull-left">
+															<input id="checkbox8" class="styled" type="checkbox">
+															<label for="checkbox8">
+																浙江
+															</label>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div><!-- /.col-md-12 -->
+								</div>
+								<div class="modal-body">
+									<div class="form-group clearfix">
+										<div class="col-md-3 col-sm-3 portlet-title tabbable-line">
+											<label class="_red _label" >城市</label>
+											<label class="" for="exampleInputEmail1">陕西</label>
+										</div>
+										<div class="col-md-9 col-sm-9 portlet-title tabbable-line">
+											<div class="btn-group _checkbox_div _scroll_y" role="group" aria-label="Large button group">
+												<div class="col-md-4 col-sm-4">
+													<div class="checkbox">
+														<input id="checkbox1" class="styled" type="checkbox">
+														<label for="checkbox1">
+															陕西
+														</label>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4">
+													<div class="checkbox pull-left">
+														<input id="checkbox2" class="styled" type="checkbox">
+														<label for="checkbox2">
+															浙江
+														</label>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4">
+													<div class="checkbox pull-left">
+														<input id="checkbox3" class="styled" type="checkbox">
+														<label for="checkbox3">
+															浙江
+														</label>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4">
+													<div class="checkbox pull-left">
+														<input id="checkbox4" class="styled" type="checkbox">
+														<label for="checkbox4">
+															浙江
+														</label>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4">
+													<div class="checkbox pull-left">
+														<input id="checkbox5" class="styled" type="checkbox">
+														<label for="checkbox5">
+															浙江
+														</label>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4">
+													<div class="checkbox pull-left">
+														<input id="checkbox6" class="styled" type="checkbox">
+														<label for="checkbox6">
+															浙江
+														</label>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4">
+													<div class="checkbox pull-left">
+														<input id="checkbox7" class="styled" type="checkbox">
+														<label for="checkbox7">
+															浙江
+														</label>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4">
+													<div class="checkbox pull-left">
+														<input id="checkbox8" class="styled" type="checkbox">
+														<label for="checkbox8">
+															浙江
+														</label>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4">
+													<div class="checkbox pull-left">
+														<input id="checkbox8" class="styled" type="checkbox">
+														<label for="checkbox8">
+															浙江
+														</label>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4">
+													<div class="checkbox pull-left">
+														<input id="checkbox8" class="styled" type="checkbox">
+														<label for="checkbox8">
+															浙江
+														</label>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4">
+													<div class="checkbox pull-left">
+														<input id="checkbox8" class="styled" type="checkbox">
+														<label for="checkbox8">
+															浙江
+														</label>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4">
+													<div class="checkbox pull-left">
+														<input id="checkbox8" class="styled" type="checkbox">
+														<label for="checkbox8">
+															浙江
+														</label>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4">
+													<div class="checkbox pull-left">
+														<input id="checkbox8" class="styled" type="checkbox">
+														<label for="checkbox8">
+															浙江
+														</label>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4">
+													<div class="checkbox pull-left">
+														<input id="checkbox8" class="styled" type="checkbox">
+														<label for="checkbox8">
+															浙江
+														</label>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4">
+													<div class="checkbox pull-left">
+														<input id="checkbox8" class="styled" type="checkbox">
+														<label for="checkbox8">
+															浙江
+														</label>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4">
+													<div class="checkbox pull-left">
+														<input id="checkbox8" class="styled" type="checkbox">
+														<label for="checkbox8">
+															浙江
+														</label>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-body" style="border-top: 1px solid #eee;padding-top: 15px;">
+									<div class="form-group clearfix">
+										<div class="col-md-3 col-sm-3 portlet-title tabbable-line" style="padding-left: 5px;padding-right: 5px;">
+											<label class="_red _label" style="width:100%;">母婴店品牌</label>
+											<label class="">陕西·西安</label>
+										</div>
+										<div class="col-md-9 col-sm-9 portlet-title tabbable-line">
+											<div class="btn-group _checkbox_div" role="group" aria-label="Large button group">
+												<div class="col-md-4 col-sm-4">
+													<div class="checkbox">
+														<input id="checkbox1" class="styled" type="checkbox">
+														<label for="checkbox1">
+															陕西
+														</label>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4">
+													<div class="checkbox pull-left">
+														<input id="checkbox2" class="styled" type="checkbox">
+														<label for="checkbox2">
+															浙江
+														</label>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4">
+													<div class="checkbox pull-left">
+														<input id="checkbox3" class="styled" type="checkbox">
+														<label for="checkbox3">
+															浙江
+														</label>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4">
+													<div class="checkbox pull-left">
+														<input id="checkbox4" class="styled" type="checkbox">
+														<label for="checkbox4">
+															浙江
+														</label>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4">
+													<div class="checkbox pull-left">
+														<input id="checkbox5" class="styled" type="checkbox">
+														<label for="checkbox5">
+															浙江
+														</label>
+													</div>
+												</div>
+												<div class="col-md-4 col-sm-4">
+													<div class="checkbox pull-left">
+														<input id="checkbox6" class="styled" type="checkbox">
+														<label for="checkbox6">
+															浙江
+														</label>
+													</div>
+												</div>
+											</div>
+										</div>
+										<nav class="text-center" aria-label="Page navigation">
+											<ul class="pagination">
+												<li>
+													<a href="#" aria-label="Previous">
+														<span aria-hidden="true">&laquo;</span>
+													</a>
+												</li>
+												<li><a href="#">1</a></li>
+												<li><a href="#">2</a></li>
+												<li><a href="#">3</a></li>
+												<li><a href="#">4</a></li>
+												<li><a href="#">5</a></li>
+												<li>
+													<a href="#" aria-label="Next">
+														<span aria-hidden="true">&raquo;</span>
+													</a>
+												</li>
+											</ul>
+										</nav>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6 col-sm-6">
+								<div class="modal-body" style="height:440px;">
+									<div class="inline-block margin-top-10">
+										<div class="form-group clearfix">
+											<div class="col-md-3 col-sm-3 portlet-title tabbable-line">
+												<label class="_red _label">导购员</label>
+												<label class="">陕西·西安 京东宝贝</label>
+											</div>
+											<div class="col-md-9 col-sm-9 portlet-title tabbable-line _clear_padding">
+												<div class="col-md-6 col-sm-6 _clear_padding">
+													<div class="checkbox">
+														<input id="checkbox11" class="styled" type="checkbox">
+														<label for="checkbox11">
+															张三 1588888888
+														</label>
+													</div>
+												</div>
+												<div class="col-md-6 col-sm-6 _clear_padding">
+													<div class="checkbox pull-left">
+														<input id="checkbox12" class="styled" type="checkbox">
+														<label for="checkbox12">
+															张三 1588888888
+														</label>
+													</div>
+												</div>
+												<div class="col-md-6 col-sm-6 _clear_padding">
+													<div class="checkbox">
+														<input id="checkbox13" class="styled" type="checkbox">
+														<label for="checkbox13">
+															张三 1588888888
+														</label>
+													</div>
+												</div>
+												<div class="col-md-6 col-sm-6 _clear_padding">
+													<div class="checkbox pull-left">
+														<input id="checkbox14" class="styled" type="checkbox">
+														<label for="checkbox14">
+															张三 1588888888
+														</label>
+													</div>
+												</div>
+												<div class="col-md-6 col-sm-6 _clear_padding">
+													<div class="checkbox">
+														<input id="checkbox15" class="styled" type="checkbox">
+														<label for="checkbox15">
+															张三 1588888888
+														</label>
+													</div>
+												</div>
+												<div class="col-md-6 col-sm-6 _clear_padding">
+													<div class="checkbox pull-left">
+														<input id="checkbox16" class="styled" type="checkbox">
+														<label for="checkbox16">
+															张三 1588888888
+														</label>
+													</div>
+												</div>
+												<div class="col-md-6 col-sm-6 _clear_padding">
+													<div class="checkbox">
+														<input id="checkbox17" class="styled" type="checkbox">
+														<label for="checkbox17">
+															张三 1588888888
+														</label>
+													</div>
+												</div>
+												<div class="col-md-6 col-sm-6 _clear_padding">
+													<div class="checkbox pull-left">
+														<input id="checkbox18" class="styled" type="checkbox">
+														<label for="checkbox18">
+															张三 1588888888
+														</label>
+													</div>
+												</div>
+												<div class="col-md-6 col-sm-6 _clear_padding">
+													<div class="checkbox">
+														<input id="checkbox19" class="styled" type="checkbox">
+														<label for="checkbox19">
+															张三 1588888888
+														</label>
+													</div>
+												</div>
+												<div class="col-md-6 col-sm-6 _clear_padding">
+													<div class="checkbox pull-left">
+														<input id="checkbox20" class="styled" type="checkbox">
+														<label for="checkbox20">
+															张三 1588888888
+														</label>
+													</div>
+												</div>
+
+											</div>
+										</div>
+									</div><!-- /.col-md-12 -->
+								</div>
+
+								<div class="modal-footer">
+									<nav class="text-center" aria-label="Page navigation">
+										<ul class="pagination">
+											<li>
+												<a href="#" aria-label="Previous">
+													<span aria-hidden="true">&laquo;</span>
+												</a>
+											</li>
+											<li><a href="#">1</a></li>
+											<li><a href="#">2</a></li>
+											<li><a href="#">3</a></li>
+											<li><a href="#">4</a></li>
+											<li><a href="#">5</a></li>
+											<li>
+												<a href="#" aria-label="Next">
+													<span aria-hidden="true">&raquo;</span>
+												</a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+							<div class="col-md-12 col-sm-12">
+								<div class="modal-footer" style="text-align: center;">
+									<button type="button" class="btn btn-default btn-lg" data-dismiss="modal"  style="border-radius: 4px !important;">取消</button>
+									<button type="button" class="btn btn-default btn-lg _submit">确认</button>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div><!--/modal-->
+				<!--品牌产品模态框-->
+				<div id="myModal1" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+					<div class="modal-dialog modal-xs " role="document">
+						<div class="modal-content clearfix" style="width:500px">
+
+							<div class="col-md-12 col-sm-12">
+								<div class="modal-header">
+									<div class="col-md-12">
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="请输入品牌/产品名字">
+											<span class="input-group-btn">
+												<button class="btn btn-default _red" type="button">搜索</button>
+											</span>
+										</div><!-- /input-group -->
+									</div><!-- /.col-md-12 -->
+
+									<div class="inline-block margin-top-10">
+										<div class="form-group clearfix">
+											<div class="col-md-3 col-sm-3 portlet-title tabbable-line" style="margin-top: 10px">
+												<label class="_red _label">品牌</label>
+											</div>
+											<div class="col-md-9 col-sm-9 portlet-title tabbable-line margin-top-10 ">
+												<div class="btn-group _checkbox_div _scroll_y" role="group" aria-label="Large button group">
+													<div class="col-md-4 col-sm-4">
+														<div class="checkbox">
+															<input id="checkbox1" class="styled" type="checkbox">
+															<label for="checkbox1">
+																全选
+															</label>
+														</div>
+													</div>
+													<div class="col-md-4 col-sm-4">
+														<div class="checkbox pull-left">
+															<input id="checkbox2" class="styled" type="checkbox">
+															<label for="checkbox2">
+																橙子
+															</label>
+														</div>
+													</div>
+													<div class="col-md-4 col-sm-4">
+														<div class="checkbox pull-left">
+															<input id="checkbox3" class="styled" type="checkbox">
+															<label for="checkbox3">
+																维管
+															</label>
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+									</div><!-- /.col-md-12 -->
+								</div>
+								<div class="modal-body" >
+									<div class="form-group clearfix">
+										<div class="col-md-3 col-sm-3 portlet-title tabbable-line" >
+											<label class="_red _label" >产品</label>
+										</div>
+										<div class="col-md-9 col-sm-9 portlet-title tabbable-line">
+											<div class="btn-group _checkbox_div _scroll_y" role="group" aria-label="Large button group" style="max-height: 250px">
+												<div class="col-md-12 col-sm-12">
+													<div class="checkbox">
+														<input id="checkbox1" class="styled" type="checkbox">
+														<label for="checkbox1">
+															NB纸尿裤80P
+														</label>
+													</div>
+												</div>
+												<div class="col-md-12 col-sm-12">
+													<div class="checkbox pull-left">
+														<input id="checkbox2" class="styled" type="checkbox">
+														<label for="checkbox2">
+															NB纸尿裤80P
+														</label>
+													</div>
+												</div>
+												<div class="col-md-12 col-sm-12">
+													<div class="checkbox pull-left">
+														<input id="checkbox3" class="styled" type="checkbox">
+														<label for="checkbox3">
+															NB纸尿裤80P
+														</label>
+													</div>
+												</div>
+												<div class="col-md-12 col-sm-12">
+													<div class="checkbox pull-left">
+														<input id="checkbox4" class="styled" type="checkbox">
+														<label for="checkbox4">
+															NB纸尿裤80P
+														</label>
+													</div>
+												</div>
+												<div class="col-md-12 col-sm-12">
+													<div class="checkbox pull-left">
+														<input id="checkbox5" class="styled" type="checkbox">
+														<label for="checkbox5">
+															NB纸尿裤80P
+														</label>
+													</div>
+												</div>
+												<div class="col-md-12 col-sm-12">
+													<div class="checkbox pull-left">
+														<input id="checkbox5" class="styled" type="checkbox">
+														<label for="checkbox5">
+															NB纸尿裤80P
+														</label>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+							<div class="col-md-12 col-sm-12">
+								<div class="modal-footer" style="text-align: center;">
+									<button type="button" class="btn btn-default btn-lg" data-dismiss="modal"  style="border-radius: 4px !important;">取消</button>
+									<button type="button" class="btn btn-default btn-lg _submit">确认</button>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div><!--/modal-->
+				<!--激励活动筛选模态框-->
+				<div id="myModal2" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+					<div class="modal-dialog modal-xs " role="document">
+						<div class="modal-content clearfix" style="width:500px">
+
+							<div class="col-md-12 col-sm-12">
+								<div class="modal-header">
+									<div class="col-md-12">
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="请输入激励活动名称">
+											<span class="input-group-btn">
+												<button class="btn btn-default _red" type="button">搜索</button>
+											</span>
+										</div><!-- /input-group -->
+									</div><!-- /.col-md-12 -->
+
+									<div class="inline-block margin-top-10 col-md-12 col-sm12">
+										<div class="form-group clearfix">
+											<div class="col-md-6 col-sm-6 portlet-title tabbable-line" style="margin-top: 10px">
+												<div class="checkbox">
+													<input id="checkbox0" class="styled" type="checkbox">
+													<label for="checkbox0">
+														所有活动
+													</label>
+												</div>
+											</div>
+
+										</div>
+									</div><!-- /.col-md-12 -->
+								</div>
+								<div class="modal-body" >
+									<div class="form-group clearfix">
+										<div class="col-md-6 col-sm-6 portlet-title tabbable-line" >
+											<div class="btn-group _checkbox_div _scroll_y" role="group" aria-label="Large button group" style="max-height: 300px">
+												<div class="col-md-12 col-sm-12">
+													<div class="checkbox">
+														<input id="checkbox1" class="styled" type="checkbox">
+														<label for="checkbox1">
+															双旦特惠
+														</label>
+													</div>
+												</div>
+												<div class="col-md-12 col-sm-12">
+													<div class="checkbox pull-left">
+														<input id="checkbox2" class="styled" type="checkbox">
+														<label for="checkbox2">
+															双十一促销
+														</label>
+													</div>
+												</div>
+												<div class="col-md-12 col-sm-12">
+													<div class="checkbox pull-left">
+														<input id="checkbox3" class="styled" type="checkbox">
+														<label for="checkbox3">
+															圣诞节狂欢
+														</label>
+													</div>
+												</div>
+												<div class="col-md-12 col-sm-12">
+													<div class="checkbox pull-left">
+														<input id="checkbox4" class="styled" type="checkbox">
+														<label for="checkbox4">
+															周年庆
+														</label>
+													</div>
+												</div>
+												<div class="col-md-12 col-sm-12">
+													<div class="checkbox pull-left">
+														<input id="checkbox5" class="styled" type="checkbox">
+														<label for="checkbox5">
+															新品上市
+														</label>
+													</div>
+												</div>
+												
+											</div>
+										</div>
+										<div class="col-md-6 col-sm-6 portlet-title tabbable-line">
+											<div class="btn-group _checkbox_div _scroll_y" role="group" aria-label="Large button group" style="max-height: 300px">
+												<div class="col-md-12 col-sm-12">
+													<div class="checkbox">
+														<input id="checkbox6" class="styled" type="checkbox">
+														<label for="checkbox1">
+															双十二特惠
+														</label>
+													</div>
+												</div>
+												<div class="col-md-12 col-sm-12">
+													<div class="checkbox pull-left">
+														<input id="checkbox7" class="styled" type="checkbox">
+														<label for="checkbox2">
+															换季清仓
+														</label>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+							<div class="col-md-12 col-sm-12">
+								<div class="modal-footer" style="text-align: center;">
+									<button type="button" class="btn btn-default btn-lg" data-dismiss="modal"  style="border-radius: 4px !important;">取消</button>
+									<button type="button" class="btn btn-default btn-lg _submit">确认</button>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div><!--/modal-->
+				<!--流程状态筛选模态框-->
+				<div id="myModal3" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+					<div class="modal-dialog modal-xs " role="document">
+						<div class="modal-content clearfix" style="width:500px">
+
+							<div class="col-md-12 col-sm-12">
+								<div class="modal-header">
+									<div class="col-md-12">
+										<div class="inline-block margin-top-10 col-md-12 col-sm12">
+											<div class="form-group clearfix">
+												<div class="col-md-6 col-sm-6 portlet-title tabbable-line" style="margin-top: 10px">
+													<div>
+														<label for="checkbox0">
+															流程状态
+														</label>
+													</div>
+												</div>
+
+											</div>
+										</div><!-- /.col-md-12 -->
+									</div>
+									<div class="modal-body" >
+										<div class="form-group clearfix">
+											<div class="col-md-12 col-sm-12 portlet-title tabbable-line" >
+												<div class="btn-group _checkbox_div _scroll_y" role="group" aria-label="Large button group" style="max-height: 300px">
+													<div class="col-md-12 col-sm-12">
+														<div class="checkbox">
+															<input id="checkbox1" class="styled" type="checkbox">
+															<label for="checkbox1">
+																全选
+															</label>
+														</div>
+													</div>
+													<div class="col-md-12 col-sm-12">
+														<div class="checkbox pull-left">
+															<input id="checkbox2" class="styled" type="checkbox">
+															<label for="checkbox2">
+																已完成
+															</label>
+														</div>
+													</div>
+													<div class="col-md-12 col-sm-12">
+														<div class="checkbox pull-left">
+															<input id="checkbox2" class="styled" type="checkbox">
+															<label for="checkbox2">
+																审批
+															</label>
+														</div>
+													</div>
+													<div class="col-md-12 col-sm-12">
+														<div class="checkbox pull-left">
+															<input id="checkbox3" class="styled" type="checkbox">
+															<label for="checkbox3">
+																已封存
+															</label>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-12 col-sm-12">
+									<div class="modal-footer" style="text-align: center;">
+										<button type="button" class="btn btn-default btn-lg" data-dismiss="modal"  style="border-radius: 4px !important;">取消</button>
+										<button type="button" class="btn btn-default btn-lg _submit">确认</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!--/modal-->
+
+				<div style="padding: 12px 20px 15px 55px;border-bottom: 2px solid #ccc;">
+					<div class="font-dark bold" style="font-size: 18px;">相关资讯</div>
+				</div>
+				<div style="padding: 12px 20px 15px 55px;">
+					<div class="font-dark bold" style="font-size: 18px;">使用指南</div>
+				</div>
+				<div class="row" style="margin: 0;">
+					<div class="col-md-4 col-sm-4"> <span style="padding: 12px 20px 0 40px;color: #008AFF;cursor: pointer;">如何激励活动？</span> </div>
+					<div class="col-md-4 col-sm-4"> <span style="color: #008AFF;cursor: pointer;">如何充值和发放奖金？</span> </div>
+					<div class="col-md-4 col-sm-4" style="text-align: center;"> <span style="color: #666;cursor: pointer;">专属顾问联系电话：15900973961</span> </div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

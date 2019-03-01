@@ -1,0 +1,15 @@
+body{
+	
+	height: 1087px;
+	margin: 0 auto;
+}
+.sidebar{
+    width: 200px;
+    height: 1087px;
+    float: left;
+    background-color: #414A6B;
+}
+.content{
+    width: 1020px;
+    float: left;	
+}

@@ -1,0 +1,31 @@
+.container{
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+	margin-top: 10px;
+	margin-bottom: 100px;
+	position:relative;
+}
+.container .tbody{
+	margin:15px;
+	width: 90%;
+	padding:0;
+	height:auto;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.container .personal-panel{
+	
+}
+.table span{
+	/* margin-left: 50px; */
+	font-weight: bold;
+}
+td{
+	vertical-align: center;
+}
+.table label{
+	margin-top: 7px;
+	font-weight: bold;
+}

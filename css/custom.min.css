@@ -1,0 +1,134 @@
+/*--------index2--------*/
+._supplier{
+	font-family: PingFangSC-Medium;
+	font-size: 14px !important;
+	color: #333333;
+}
+._supplier_select{
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+}
+._tab_active{
+	background: #FF4040;
+	color: #FFFFFF;
+}
+._tab_active:hover{
+	background: #FF4040 !important;
+	color: #FFFFFF !important;
+}
+._tab_active:active{
+	background: #FF4040 !important;
+	color: #FFFFFF !important;
+}
+._tab_active:focus{
+	background: #FF4040 !important;
+	color: #FFFFFF !important;
+}
+._tab_div{
+	width: 260px;
+	height: 3.4rem;
+}
+._tab_left{
+	border-top-left-radius: 4px !important;
+	border-bottom-left-radius: 4px !important;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	letter-spacing: 0;
+	width: 50%;
+	height:100%;
+}
+._tab_right{
+	border-top-right-radius: 4px !important;
+	border-bottom-right-radius: 4px !important;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	letter-spacing: 0;
+	width: 50%;
+	height:100%;
+}
+._operation{
+	padding-left: 5px;
+	padding-right: 0px;
+}
+._operation > button{
+	width:100%;
+	border-radius: 2px !important;
+}
+._operation > button{
+	margin-bottom: 0.5rem;
+}
+._table th,._table td{
+	text-align: center;  
+	vertical-align: middle!important;  
+}
+/*------index2 add-----*/
+._submit{
+	background: #59C058;
+	color:#fff;
+	border-radius: 4px !important;
+}
+._addbtn{
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #008AFF;
+	border: 1px solid #008AFF;
+	letter-spacing: 0;
+}
+._red{
+	color: #fff;
+    background: #FF4040;
+}
+._checkbox_div > div{
+	border:1px solid #eee;
+}
+._empty{
+	height:41px;
+	line-height: 41px;
+	color:#008AFF;    
+	cursor: pointer;
+}
+._label{
+	padding: 4px 6px;
+	border-radius: 2px !important;
+}
+._clear_padding{
+	padding: 0px;
+}
+._scroll_y{
+	width: 110%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 100px;
+}
+._text_left{
+	padding-left: 10px !important;
+}
+/*------index2 detail-----*/
+._btn_status{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius:4px !important;   
+    float: right;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;    
+    background: #eee;
+    margin-left: 5px;
+}
+._border_radius{
+	border-radius:4px !important;
+}
+._green{
+	color: #fff;
+    background: #59C058;
+}
+._table>th,._table>tr{
+	text-align: center;
+}
+/*-------channel bonus -----*/
+._top{
+	color: #fff;
+	height:170px;
+	background-color: rgba(51, 153, 255, 1);
+}

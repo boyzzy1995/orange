@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>首页</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<meta content="" name="description" />
+	<meta content="" name="author" />
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
+	<link href="../css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="../css/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+	<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="../css/bootstrap-select.min.css" rel="stylesheet"/>
+	<link href="../css/font-awesome.min.css" rel="stylesheet"/>
+	<link href="../css/fileinput.css" media="all" rel="stylesheet" type="text/css" />
+	<link href="../css/product/detail.css" rel="stylesheet"/>
+	<link href="../css/components.css" rel="stylesheet" id="style_components" type="text/css" />
+	<link href="../css/layout.css" rel="stylesheet" type="text/css" />
+	<link href="../css/darkblue.css" rel="stylesheet" type="text/css" id="style_color" />
+	<!--<script src="../js/jquery.min.js" type="text/javascript"></script>-->
+	<script src="../js/jquery1_11.js" type="text/javascript"></script>
+	<script src="../js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="../js/bootstrap-select.min.js"></script>
+	<script src="../js/fileinput.js" type="text/javascript"></script>
+	<script src="../js/product/detail.js"></script>
+
+	<body class="page-header-fixed page-sidebar-closed-hide-logo page-content-white">
+		<div class="page-container" style="background-color: #414a6b;">
+			<div class="page-sidebar-wrapper">
+				<div class="page-sidebar navbar-collapse collapse" style="background-color: #414a6b;">
+					<ul class="page-sidebar-menu  page-header-fixed " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+						<div class="im-profile-userpic">
+							<a href="#">
+								<img src="../img/photo.png" class="im-img-responsive" style="margin-left: 21%;" />
+							</a>
+
+						</div>
+						<li class="nav-item ">
+							<a href="index.html" class="nav-link nav-toggle"> <img src="../img/sy.png" class="im-imgicon" /> <span class="title">首页</span> </a>
+						</li>
+						<li class="nav-item  ">
+							<a href="javascript:;" class="nav-link nav-toggle"> <img src="../img/jlhd.png" class="im-imgicon" /> <span class="title">激励活动</span> </a>
+						</li>
+						<li class="nav-item  active">
+							<a href="品牌产品.html" class="nav-link nav-toggle"> <img src="../img/ppcp.png" class="im-imgicon" /> <span class="title">品牌产品</span> </a>
+						</li>
+						<li class="nav-item  ">
+							<a href="javascript:;" class="nav-link nav-toggle"> <img src="../img/wdkh.png" class="im-imgicon" /> <span class="title">我的客户</span> </a>
+						</li>
+						<li class="nav-item  ">
+							<a href="lczxList.html" class="nav-link nav-toggle"> <img src="../img/lczx.png" class="im-imgicon" /> <span class="title">流程中心</span> </a>
+						</li>
+						<li class="nav-item  ">
+							<a href="消息信箱.html" class="nav-link nav-toggle"> <img src="../img/xxxx.png" class="im-imgicon" /> <span class="title">消息信箱</span> </a>
+						</li>
+						<li class="nav-item  ">
+							<a href="数据中心.html" class="nav-link nav-toggle"> <img src="../img/sjzx.png" class="im-imgicon" /> <span class="title">数据中心</span> </a>
+						</li>
+						<li class="nav-item  ">
+							<a href="javascript:;" class="nav-link nav-toggle"> <img src="../img/qdhl.png" class="im-imgicon" /> <span class="title">渠道红利</span> </a>
+						</li>
+						<li class="nav-item  ">
+							<a href="我的账户-个人信息.html" class="nav-link nav-toggle"> <img src="../img/nrwh.png" class="im-imgicon" /> <span class="title">我的账户</span> </a>
+						</li>
+						<li class="nav-item" style="margin-top: 10%;">
+							<a href="javascript:;" class="nav-link nav-toggle"> <span class="title im-imgicon">关于橙子维管</span> </a>
+						</li>
+						<li class="nav-item  ">
+							<a href="javascript:;" class="nav-link nav-toggle"> <span class="im-imgicon"> <i class="fa fa-power-off"></i> <span class="title">退出</span> </span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="page-content-wrapper">
+				<div class="page-content im-backcolor">
+					<div class="page-bar">
+						<ul class="page-breadcrumb">
+							<li> <img src="../img/pc_logo.png" /> </li>
+							<li> <span class="im-toptitle">橙子维管 线下母婴渠道·信息管理平台</span> </li>
+						</ul>
+						<div class="page-toolbar"> <span class="im-toptitleright">深圳腾讯供应有限公司</span> </div>
+					</div>
+
+					<div class="container" id="mycontainer" style="height: auto;">
+						<div class="row header">
+							品牌产品><span class="ppcp">品牌详情</span>
+						</div>
+						<div class="row tbody">
+							<div class="col-lg-3 col-md-4 col-xs-4 bodyleft">
+								<table width="100%">
+									<tr style="height:70%">
+										<td>
+											<input type="file" id="picture" title="请选择图片" style="width: 100%;height: 140px;opacity: 0;position: absolute;" id="file" multiple="" accept="image/png,image/jpg,image/gif,image/JPEG">
+											<img id="pic" style="width: 120px;height: 120px;" src="../img/u1160.png"/>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<lable style="font-size: 18px;">品牌名：</lable>
+											<input type="text" value="橙子" id="inputtxt" class="form-control" style="width: 70px;text-align: center;display: none" onblur="txtblur()"/>
+											<label id="labletxt" style="font-size: 18px;width: auto;">橙子</label>
+											<a href="#" onclick="changespan()">
+												<span id="spantxt" class="glyphicon glyphicon-edit" style="font-size: 25px;margin-left: 5px"></span>
+											</a>
+										</td>
+										<!-- <button  type="button" class="btn btn-default btn-sm">
+											<span class="glyphicon glyphicon-edit"></span>
+										</button></td> -->
+									</tr>
+									<tr>
+										<td style="font-size: 18px;padding-left: 11px;">点击图片修改LOGO</td>
+									</tr>
+								</table>
+							</div>
+							<div class="col-lg-9 col-md-8 col-xs-8 bodyright">
+								<div class="topbtn">
+									<input type="button" style="width: 150px;height:40px" class="btn btn-info" value="添加新产品" data-toggle="modal" data-target="#myModal"/>
+									<div class="btn btn-info btn-file btn-md" style="width: 150px;height:40px;margin-left: 20px" data-toggle="modal" data-target="#myModal1">
+										<span style="margin-top: 3px;" class="glyphicon glyphicon-folder-open" >&nbsp;批量导入</span>
+										<input type="file button" multiple="true" value="批量导入"  style="display: none">
+									</div>
+									<input type="button" style="width: 150px;height:40px;margin-left: 20px" class="btn btn-info" value="下载模板"/>
+								</div>
+								<div class="tablediv" style="max-height: 600px;overflow-y: auto;overflow-x: hidden;height: 600px">
+									<table class="table table-bordered" style="width: 100%;" id="itable">
+										<thead>
+											<tr>
+												<th>品名</th>
+												<th>条形码</th>
+												<th>商品编码</th>
+												<th>规格</th>
+												<th>零售价</th>
+												<th>品类</th>
+												<th></th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+											<tr>
+												<td>NB纸尿裤80P</td>
+												<td>62888888888888888</td>
+												<td>NB01</td>
+												<td>NB</td>
+												<td>150</td>
+												<td>纸尿裤</td>
+												<td><a href="">删除</a></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--模态框-->
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+										&times;
+									</button>
+									<h4 class="modal-title" id="myModalLabel">
+										添加新产品
+									</h4>
+								</div>
+								<div class="modal-body">
+									<form action="/brand/product_update" method="post" name="add" enctype="multipart/form-data" class="form-horizontal" role="form">
+										<div class="form-group">
+											<label for="name" class="col-sm-2 control-label">产品名称</label>
+											<div class="col-sm-10">
+												<input type="text" class="form-control" id="name" placeholder="请输入产品名称">
+											</div>
+										</div>
+										<div class="form-group">
+											<label for="txm" class="col-sm-2 control-label">条形码</label>
+											<div class="col-sm-10">
+												<input type="text" class="form-control" id="txm" placeholder="请输入条形码">
+											</div>
+										</div>
+										<div class="form-group">
+											<label for="bm" class="col-sm-2 control-label">商品编码</label>
+											<div class="col-sm-10">
+												<input type="text" class="form-control" id="bm" placeholder="请输入商品编码">
+											</div>
+										</div>
+										<div class="form-group">
+											<label for="gg" class="col-sm-2 control-label">规格</label>
+											<div class="col-sm-10">
+												<input type="text" class="form-control" id="gg" placeholder="请输入规格">
+											</div>
+										</div>
+										<div class="form-group">
+											<label for="price" class="col-sm-2 control-label">零售价</label>
+											<div class="col-sm-10">
+												<input type="text" class="form-control" id="price" placeholder="请输入零售价">
+											</div>
+										</div>
+										<div class="form-group">
+											<label for="type" class="col-sm-2 control-label">品类</label>
+											<div class="col-sm-10">
+												<input type="text" class="form-control" id="type" placeholder="请输入品类">
+											</div>
+										</div>
+										<button type="button" class="btn btn-default" data-dismiss="modal">关闭
+										</button>
+										<input type="submit" class="btn btn-danger" name="tijiao" value="确认"/>
+									</form>
+									<div class="modal-footer">
+									</div>
+								</div>
+							</div><!-- /.modal-content -->
+						</div><!-- /.modal -->
+					</div>
+					<!--模态框-->
+					<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+										&times;
+									</button>
+									<h4 class="modal-title" id="myModalLabel">
+										上传文件
+									</h4>
+								</div>
+								<div class="modal-body">
+									<form class="form-horizontal" role="form" action="">
+										<div class="form-group">
+											<label for="filename" class="col-sm-2 control-label">文件路径:</label>
+											<div class="col-sm-10" style="padding-top: 5px;">
+												<input type="file" id="filename">
+											</div>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">关闭
+											</button>
+											<button type="submit" class="btn btn-danger" data-dismiss="modal">
+												确认
+											</button>
+										</div> 
+									</form>
+								</div>
+							</div><!-- /.modal-content -->
+						</div><!-- /.modal -->
+					</div>
+					<div style="padding: 12px 20px 15px 55px;border-bottom: 2px solid #ccc;">
+						<div class="font-dark bold" style="font-size: 18px;">相关资讯</div>
+					</div>
+					<div style="padding: 12px 20px 15px 55px;">
+						<div class="font-dark bold" style="font-size: 18px;">使用指南</div>
+					</div>
+					<div class="row" style="margin: 0;">
+						<div class="col-md-4 col-sm-4"> <span style="padding: 12px 20px 0 40px;color: #008AFF;cursor: pointer;">如何激励活动？</span> </div>
+						<div class="col-md-4 col-sm-4"> <span style="color: #008AFF;cursor: pointer;">如何充值和发放奖金？</span> </div>
+						<div class="col-md-4 col-sm-4" style="text-align: center;"> <span style="color: #666;cursor: pointer;">专属顾问联系电话：15900973961</span> </div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+	</html>

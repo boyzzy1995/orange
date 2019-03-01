@@ -1,0 +1,48 @@
+li{
+	list-style: none;
+}
+th{
+	text-align: center;
+}
+.tablediv a{
+	color:red;
+}
+.container{
+	width: 100%;
+	height: auto;
+	background-color: #FFFFFF;
+	margin-top:10px;
+	margin-bottom: 100px;
+}
+.container .header{
+	margin:15px;
+	padding:0;
+}
+.container .header .ppcp{
+	font-family: PingFangSC-Medium;
+	font-size: 18px;
+	color: #333333;
+	font-weight: bold;
+}
+.container .tbody{
+	margin:15px;
+	padding:0;
+	height:auto;
+}
+.container .tbody table{
+	height:200px;
+	/* width: 150px; */
+	text-align: center;
+ }
+ .container .tbody .bodyright{
+ 	height: auto;
+ }
+.container .tbody .bodyright .topbtn{
+	height:44px;
+	width: 100%;
+}
+.container .tbody .bodyright .tablediv{
+	margin-top: 20px;
+	height:44px;
+	width: 100%;
+}

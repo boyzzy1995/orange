@@ -1,0 +1,40 @@
+li{
+	list-style: none;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+	margin-top: 10px;
+	margin-bottom: 100px;
+}
+.container .header{
+	margin:15px;
+	padding:0;
+}
+
+.container .header .ppcp{
+	font-family: PingFangSC-Medium;
+	font-size: 18px;
+	color: #333333;
+	font-weight: bold;
+}
+.container .title-word{
+	text-align: center;
+}
+.container .title-word p{
+	font-weight: bold;
+	font-size: 16px;
+}
+.container .title-word span{
+	color:gray;
+}
+.container .tbody{
+	margin:15px;
+	padding:0;
+	height:auto;
+}
+
+.container .tbody .txt-content{
+
+}
